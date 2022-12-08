@@ -3,6 +3,7 @@
 This project was created for an interview for the Junior Developer position at Hamilton Health Sciences
 
 ## Table of Contents
+
 - [Getting Started with HHS Nurse Management App](#getting-started-with-hhs-nurse-management-app)
   - [Table of Contents](#table-of-contents)
   - [Installation \& Setting Up](#installation--setting-up)

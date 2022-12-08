@@ -5,6 +5,8 @@
 }
 
 .nurse-table{
+  max-width: 80vw;
+  min-width: 60vw;
   text-align: left;
 }
 

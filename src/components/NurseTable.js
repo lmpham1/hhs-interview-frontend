@@ -47,7 +47,11 @@ export default function NurseTable(props) {
             />
           ) : null}
         </Table>
-      ) : null}
+      ) : (
+        <div>
+          <span>No employee with matching criteria found</span>
+        </div>
+      )}
     </>
   );
 }

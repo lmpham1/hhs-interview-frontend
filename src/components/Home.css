@@ -10,6 +10,7 @@
 .table-container{
   display: flex;
   justify-content: center;
+  margin: 0.5vh 3vw;
 }
 
 .filters-container{
