@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# Getting Started with HHS Nurse Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for an interview for the Junior Developer position at Hamilton Health Sciences
 
-## Available Scripts
+## Table of Contents
+- [Getting Started with HHS Nurse Management App](#getting-started-with-hhs-nurse-management-app)
+  - [Table of Contents](#table-of-contents)
+  - [Installation \& Setting Up](#installation--setting-up)
+    - [`yarn start`](#yarn-start)
+    - [`yarn build`](#yarn-build)
+  - [Search for Employees](#search-for-employees)
+    - [Navigate through the results](#navigate-through-the-results)
+  - [Add a New Employee](#add-a-new-employee)
+  - [Update an Existing Employee](#update-an-existing-employee)
+  - [Delete an Employee Record](#delete-an-employee-record)
+
+## Installation & Setting Up
 
 In the project directory, you can run:
 
@@ -14,11 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
@@ -29,42 +36,32 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Search for Employees
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can search for one or multiple employees records by their names using the search bar at the top of the page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you have enter a search term, click "Search" to get the results
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Navigate through the results
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The results are displayed in pages of maximum 10 records. You can use the pagination list under the table to navigate between different pages
 
-## Learn More
+## Add a New Employee
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Click "Add New Employee" button
+2. A form will pop up where you can fill the required information for the new employee
+3. Once all the fields are filled, click "Create Employee" button under the form to add the employee to the database
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Update an Existing Employee
 
-### Code Splitting
+1. Navigate to their row in the result table
+2. Click "Update" button
+3. A form will pop up where you can update the employee's information
+4. Once you are done, click "Update Employee" button under the form to update the data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Delete an Employee Record
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Navigate to their row in the result table
+2. Click "Delete" button
+3. A pop-up will appear asking for confirmation
+4. Click "Confirm Delete" to delete the record, or close the pop-up to cancel
