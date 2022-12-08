@@ -11,6 +11,7 @@ This project was created for an interview for the Junior Developer position at H
     - [`yarn build`](#yarn-build)
   - [Search for Employees](#search-for-employees)
     - [Navigate through the results](#navigate-through-the-results)
+    - [Filter the Wards](#filter-the-wards)
   - [Add a New Employee](#add-a-new-employee)
   - [Update an Existing Employee](#update-an-existing-employee)
   - [Delete an Employee Record](#delete-an-employee-record)
@@ -43,19 +44,29 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Search for Employees
 
-You can search for one or multiple employees records by their names using the search bar at the top of the page
+You can search for one or multiple employees records by their names using the search bar at the top of the page.
 
-Once you have enter a search term, click "Search" to get the results
+![Search Bar](./docs/images/search.png)
+
+Once you have enter a search term, click "Search" to get the results.
 
 ### Navigate through the results
 
-The results are displayed in pages of maximum 10 records. You can use the pagination list under the table to navigate between different pages
+The results are displayed in pages of maximum 10 records. You can use the pagination list under the table to navigate between different pages.
+
+### Filter the Wards
+
+You can click the "Ward Filter" button to open a dropdown menu where you can choose the wards you want to filter
+
+![Result table with ward filter and pagination](./docs/images/filter-pagination.png)
 
 ## Add a New Employee
 
 1. Click "Add New Employee" button
 2. A form will pop up where you can fill the required information for the new employee
 3. Once all the fields are filled, click "Create Employee" button under the form to add the employee to the database
+
+![Add new employee form](./docs/images/add.png)
 
 ## Update an Existing Employee
 

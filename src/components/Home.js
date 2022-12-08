@@ -49,6 +49,7 @@ export default function Home() {
     const results = await getMany(query);
     setNoOfPages(results.noOfPages);
     setNurses(results.nurses);
+    setCurrentPage(0);
   };
 
   const addNewEmployeeHandler = async (data) => {
@@ -97,10 +98,12 @@ export default function Home() {
   useEffect(() => {
     const asyncGetMany = async () => {
       let results = await getMany(query, currentPage);
-      return results.nurses;
+      return results;
     };
     asyncGetMany().then((results) => {
-      setNurses(results);
+      setNurses(results.nurses);
+
+      setNoOfPages(results.noOfPages);
     });
   }, [currentPage]);
 
