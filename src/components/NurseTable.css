@@ -1,0 +1,17 @@
+.nurse-id{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.nurse-table{
+  text-align: left;
+}
+
+.nurse-table td{
+  vertical-align: middle;
+}
+
+.button-cell{
+  text-align: center;
+}

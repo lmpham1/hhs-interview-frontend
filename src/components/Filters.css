@@ -1,0 +1,8 @@
+.badge-group{
+  text-align: left;
+  margin: 0 1vw;
+}
+
+.badge-group span.badge{
+  margin: 0 0.2rem;
+}
