@@ -6,6 +6,7 @@ This project was created for an interview for the Junior Developer position at H
 - [Getting Started with HHS Nurse Management App](#getting-started-with-hhs-nurse-management-app)
   - [Table of Contents](#table-of-contents)
   - [Installation \& Setting Up](#installation--setting-up)
+    - [`yarn`](#yarn)
     - [`yarn start`](#yarn-start)
     - [`yarn build`](#yarn-build)
   - [Search for Employees](#search-for-employees)
@@ -17,6 +18,10 @@ This project was created for an interview for the Junior Developer position at H
 ## Installation & Setting Up
 
 In the project directory, you can run:
+
+### `yarn`
+
+Install the dependencies for the app.
 
 ### `yarn start`
 
